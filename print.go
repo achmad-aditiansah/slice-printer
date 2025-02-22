@@ -14,4 +14,5 @@ func PrintSlice2D(slice [][]int) {
 			fmt.Print(slice[i][j], "\t")
 		}
 	}
+	fmt.Println()
 }
