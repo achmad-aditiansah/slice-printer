@@ -13,6 +13,6 @@ func PrintSlice2D(slice [][]int) {
 		for j := range slice[i] {
 			fmt.Print(slice[i][j], "\t")
 		}
+		fmt.Println()
 	}
-	fmt.Println()
 }
